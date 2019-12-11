@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding-top: 50px;
+	font-size: 15px;
+	cursor:pointer; ;
+}
+nav.navbar {
+	opacity: 0.8;
+}
+h1 {
+	font-size: 2em;
+}
+.zoom:hover {
+	transform: scale(1.5);
+
+}
+div.zoomIn {
+	overflow: hidden;
+}
+i {
+	font-size: 12px;
+}
+li.list-group-item:hover {
+	cursor: pointer;
+	background-color: #A59E9E;
+	color : #0C68D9;
+}
+li.active:hover {
+	background-color: #1533CD;
+	color : #fff;
+}
+img {
+	cursor: pointer;
+	transition: all 1s;
+	transform: translate(300);
+}
+nav.navbar-dark .navbar-nav .nav-link {
+	color: rgb(236, 228, 228);
+}
+nav.navbar-dark .navbar-nav .nav-link:hover {
+	color: #000;
+}
+section ul.list-group >li a.active {
+	background-color: #3512E7;
+}
+section ol.breadcrumb li.active {
+	color : #05F03C;
+	font-weight: bold;
+}
+section ol.breadcrumb li.active:hover {
+	background: none;
+	
+}
+section ol.breadcrumb li.breadcrumb-item a:hover{
+	text-decoration: none;
+	color : #0E09E2;
+}
+li.page-item a.active {
+	background: #f10;
+	color : yellow;
+}
+footer {
+	background: #0E09E2;
+}
+footer li {
+	list-style: none;
+}
+footer li a{
+	color: #fff;
+
+}
+footer li a:hover {
+	text-decoration: none;
+	color : cyan;
+}
+footer img {
+	width: 200px;
+
+}
