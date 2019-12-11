@@ -30,22 +30,27 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="#">Home</a>
-									<a class="dropdown-item" href="#">about</a>
-									<a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal" data-toggle="modal">log out</a>
+									<a class="dropdown-item" href="#" id="drdab">about</a>
+									<a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal" data-toggle="modal" id="drdlogout">log out</a>
+									<a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal" data-toggle="modal" id="logiinModal">login</a>
 								</div>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Disabled</a>
 							</li>
+							<li>
+								<a href="" class="num" id="num"></a> <img src="../images/giohang.png" alt="" class="img-fluid giohang">
+							</li>
 						</ul>
 					</div>
 				</div>
+				
 			</nav>
 		</header>
 		<section>
 			<div class="container mt-4">
-				<div class="row">
-					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
+				<div class="row left">
+					<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 ">
 						<h1>Chung Kiên Shop</h1>
 						<ul class="list-group">
 							<li class="list-group-item active">Cras justo odio</li>
@@ -71,8 +76,9 @@
 							<li class="list-group-item">Porta ac consectetur ac</li>
 							<li class="list-group-item">Vestibulum at eros</li>
 						</ul>
+						
 					</div>
-					<div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 mt-2">
+					<div class="col-xd-7 col-sm-7 col-md-9 col-lg-9 col-xl-9 mt-2">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -107,7 +113,7 @@
 							</ol>
 						</navs>
 						<div class="row">
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+							<div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
 								<div class="card">
 									<div class="zoomIn">
 										<img class="card-img-top img-fluid zoom" src="../images/cam.jpg" alt="Card image cap">
@@ -119,12 +125,12 @@
 										<div class="row">
 											<a href="#" class="btn btn-danger mt-1">Buy Now <i class="fas fa-cart-arrow-down"></i>
 											</a>&nbsp;
-											<a href="#" class="btn btn-primary mt-1">them gio hang <i class="fas fa-cart-arrow-down"></i></a>
+											<button class="btn btn-primary mt-1 buy">them gio hang <i class="fas fa-cart-arrow-down"></i></button>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+							<div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
 								<div class="card">
 									<div class="zoomIn">
 										<img class="card-img-top img-fluid zoom" src="../images/cam.jpg" alt="Card image cap">
@@ -134,12 +140,12 @@
 										<p class="card-text">hàng sale giá chỉ còn 100.000d</p>
 										<div class="row">
 											<a href="#" class="btn btn-danger mt-1">Buy Now <i class="fas fa-cart-arrow-down"></i></a>&nbsp;
-											<a href="#" class="btn btn-primary mt-1">them gio hang <i class="fas fa-cart-arrow-down"></i></a>
+											<button class="btn btn-primary mt-1 buy">them gio hang <i class="fas fa-cart-arrow-down"></i></button>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+							<div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
 								<div class="card">
 									<div class="zoomIn">
 										<img class="card-img-top img-fluid zoom" src="../images/cam.jpg" alt="Card image cap">
@@ -149,14 +155,14 @@
 										<p class="card-text">hàng sale giá chỉ còn 100.000d</p>
 										<div class="row">
 											<a href="#" class="btn btn-danger mt-1">Buy Now <i class="fas fa-cart-arrow-down"></i> </a>&nbsp;
-											<a href="#" class="btn btn-primary mt-1">them gio hang <i class="fas fa-cart-arrow-down"></i></a>
+											<button class="btn btn-primary mt-1 buy">them gio hang <i class="fas fa-cart-arrow-down"></i></button>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+							<div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
 								<div class="card">
 									<div class="zoomIn">
 										<img class="card-img-top img-fluid zoom" src="../images/cam.jpg" alt="Card image cap">
@@ -167,12 +173,12 @@
 										<p class="card-text">hàng sale giá chỉ còn 100.000d</p>
 										<div class="row">
 											<a href="#" class="btn btn-danger mt-1">Buy Now <i class="fas fa-cart-arrow-down"></i></a>&nbsp;
-											<a href="#" class="btn btn-primary mt-1">them gio hang <i class="fas fa-cart-arrow-down"></i></a>
+											<button class="btn btn-primary mt-1 buy">them gio hang <i class="fas fa-cart-arrow-down"></i></button>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+							<div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
 								<div class="card">
 									<div class="zoomIn">
 										<img class="card-img-top img-fluid zoom" src="../images/cam.jpg" alt="Card image cap">
@@ -182,12 +188,12 @@
 										<p class="card-text">hàng sale giá chỉ còn 100.000d</p>
 										<div class="row">
 											<a href="#" class="btn btn-danger mt-1">Buy Now <i class="fas fa-cart-arrow-down"></i></a>&nbsp;
-											<a href="#" class="btn btn-primary mt-1">them gio hang <i class="fas fa-cart-arrow-down"></i></a>
+											<button class="btn btn-primary mt-1 buy">them gio hang <i class="fas fa-cart-arrow-down"></i></button>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+							<div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
 								<div class="card">
 									<div class="zoomIn">
 										<img class="card-img-top img-fluid zoom" src="../images/cam.jpg" alt="Card image cap">
@@ -197,7 +203,7 @@
 										<p class="card-text">hàng sale giá chỉ còn 100.000d</p>
 										<div class="row">
 											<a href="#" class="btn btn-danger mt-1">Buy Now <i class="fas fa-cart-arrow-down"></i> </a>&nbsp;
-											<a href="#" class="btn btn-primary mt-1">them gio hang <i class="fas fa-cart-arrow-down"></i></a>
+											<button class="btn btn-primary mt-1 buy">them gio hang <i class="fas fa-cart-arrow-down"></i></button>
 										</div>
 									</div>
 								</div>
@@ -225,7 +231,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 zoomIn mt-3">
 						<ul>
 							<li class="py-1"><a href="">Shop Camera toàn quốc</a></li>
 							<li class="py-1"><a href="">Lorem ipsum dolor.</a></li>
@@ -234,7 +240,7 @@
 							<li class="py-1"><a href="">Lorem ipsum dolor.</a></li>
 						</ul>
 					</div>
-					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 zoomIn mt-3">
 						<ul>
 							<li class="py-1"><a href="">Shop Camera toàn quốc</a></li>
 							<li class="py-1"><a href="">Lorem ipsum dolor.</a></li>
@@ -243,7 +249,7 @@
 							<li class="py-1"><a href="">Lorem ipsum dolor.</a></li>
 						</ul>
 					</div>
-					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 zoomIn mt-3">
 						<ul>
 							<li class="py-1"> <a href="">Shop Camera toàn quốc</a></li>
 							<li class="py-1"><a href="">Lorem ipsum dolor.</a></li>
@@ -252,14 +258,14 @@
 							<li class="py-1"><a href="">Lorem ipsum dolor.</a></li>
 						</ul>
 					</div>
-					<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 zoomIn">
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 zoomIn mt-3">
 						<img src="../images/map.jpg" alt="" class="img-fluid zoom">
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- Modal -->
-		<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+		<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -269,8 +275,41 @@
 						</button>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">yes</button>
+						<button type="button" class="btn btn-secondary" data-dismiss="modal" id="logout">yes</button>
 						<button type="button" class="btn btn-danger">no</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">login</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Login</button>
 					</div>
 				</div>
 			</div>
@@ -278,5 +317,6 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="../js/js.js"></script>
 	</body>
 </html>
